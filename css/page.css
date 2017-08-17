@@ -1,0 +1,120 @@
+/* Main page*/
+body {
+	background-color: #FFFFFF;
+}
+.ui.grid div.row div.column p a {
+	color: #b12d32 !important;
+	font-weight: 700;
+}
+.ui.inverted.green.menu, .ui.inverted.menu .green.active.item {
+	background-color: #7CB955 !important;
+}
+.ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
+	color: #fff!important;
+}
+#mnu-sidebar {
+	margin-top: 40px !important;
+}
+.main.container {
+	margin-top: 5em;
+}
+.ui.red.button {
+	 background-color: #B12D32 !important;
+}
+.ui.green.button {
+	 background-color: #7CB955 !important;
+}
+#mnu-hamburger {
+	display: none;
+}
+#mnu-sidebar {
+	background-color: #B3D394 !important;
+}
+.ui.sidebar.menu .item {
+	color: 000;
+}
+.ui.secondary.menu .ui.dropdown.item {
+	display: none;
+}
+.ui.green.ribbon.label {
+	background-color: #7CB955 !important;
+}
+.ui.table .text.red {
+	color: #b12d32;
+}
+.ui.inverted.green.vertical.footer.segment {
+	background-color: #7CB955 !important;
+}
+.ui.footer.segment  a.item {
+	color: #fff !important;
+}
+.ui.inverted.link.list a.item {
+	color: #B12D32 !important;
+	font-weight: 700;
+}
+.ui.list div.content a {
+	color: #B12D32 !important;
+	font-weight: 700;
+}
+/*19639a*/
+/* Clinic Buddy */
+a.cb-btn-blue {
+	background-color: #7CB955 !important;
+}
+a.cb-available-time {
+	background-color: #7CB955 !important;
+}
+.cb-onlinebooking .cb-container {
+	padding: 0px !important;
+
+}
+.cb-onlinebooking {
+	height: auto !important;
+}
+.cb-onlinebooking .cb-btn-green {
+	background-color: #7CB955 !important;
+}
+.cb-section-header {
+	display: none !important;
+}
+.cb-modal.cb-in {
+	padding-top: 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+	/* Clinic Buddy */
+	.cb-onlinebooking {
+		min-width: 670px !important;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 970px) {
+	.ui.secondary.menu .ui.dropdown.item {
+		display: block !important;
+	}
+	.ui.secondary.menu .item.computer {
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+	/* Clinic Buddy */
+	.cb-onlinebooking {
+		min-width: 670px !important;
+	}
+}
+
+ @media only screen and (max-width: 768px) {
+	.ui.secondary.menu .item
+	{
+		display: none !important;
+	}
+	#mnu-hamburger {
+		display: block !important;
+	}
+
+	/* Clinic Buddy */
+	.cb-onlinebooking {
+		min-width: 275px !important;
+	}
+}
